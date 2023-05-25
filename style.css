@@ -1,0 +1,16 @@
+body {
+    /*background: url("bg.png") no-repeat center center fixed;*/
+    background-size: cover;
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #212021; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+h1 {
+    color: #00a800; /* El color de la cabecera */
+    font-size: 35px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+img.rounded {
+    border-radius: 10px;
+  }
