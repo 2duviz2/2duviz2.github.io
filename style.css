@@ -3,7 +3,7 @@ body {
     background-size: cover;
     font-family: Arial,  sans-serif; /* Familia de fuentes */
     font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #404040; /* El color del fondo de la página web */
+    background-color: #000000; /* El color del fondo de la página web */
     color: #00a800; /* El color del texto*/ 
 }
 h1 {
@@ -11,7 +11,7 @@ h1 {
     font-size: 35px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
 }
-h1:hover {
+h1 {
   animation: color-change 3s infinite;
 }
 img.rounded {
