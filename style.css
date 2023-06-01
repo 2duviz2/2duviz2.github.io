@@ -3,14 +3,43 @@ body {
     background-size: cover;
     font-family: Arial,  sans-serif; /* Familia de fuentes */
     font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #212021; /* El color del fondo de la página web */
-    color: #ffffff; /* El color del texto*/ 
+    background-color: #000000; /* El color del fondo de la página web */
+    color: #00a800; /* El color del texto*/ 
 }
 h1 {
     color: #00a800; /* El color de la cabecera */
     font-size: 35px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    animation: color-change 3s infinite;
 }
 img.rounded {
     border-radius: 10px;
+    animation: radius-change 1s infinite;
   }
+  @keyframes color-change {
+    0% {
+      color: #00a800;
+    }
+  
+    50% {
+      color: #005aa8;
+    }
+  
+    100% {
+      color: #00a800;
+    }
+}
+
+@keyframes radius-change {
+    0% {
+      border-radius: 100px;
+    }
+  
+    50% {
+      border-radius: 150px;
+    }
+  
+    100% {
+      border-radius: 100px;
+    }
+}
