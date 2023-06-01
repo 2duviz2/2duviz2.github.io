@@ -10,7 +10,9 @@ h1 {
     color: #00a800; /* El color de la cabecera */
     font-size: 35px; /* El tamaño de la fuente de la cabecera */
     font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
-    animation: color-change 3s infinite;
+}
+h1:hover {
+  animation: color-change 3s infinite;
 }
 img.rounded {
     border-radius: 10px;
